@@ -1,7 +1,7 @@
 function verificarTriangulo() {
-    var ladoA = parseFloat(document.getElementById('ladoA').value);
-    var ladoB = parseFloat(document.getElementById('ladoB').value);
-    var ladoC = parseFloat(document.getElementById('ladoC').value);
+    let ladoA = parseFloat(document.getElementById('ladoA').value);
+    let ladoB = parseFloat(document.getElementById('ladoB').value);
+    let ladoC = parseFloat(document.getElementById('ladoC').value);
 
     if (ladoA === ladoB && ladoB === ladoC) {
         exibirResultado("equilatero");
@@ -13,7 +13,7 @@ function verificarTriangulo() {
 }
 
 function exibirResultado(tipoTriangulo) {
-    var resultadoDiv = document.getElementById('resultado');
+    let resultadoDiv = document.getElementById('resultado');
     resultadoDiv.innerHTML = "<p>Tipo de triângulo: " + tipoTriangulo + "</p>";
 
     if (tipoTriangulo === "equilatero") {
@@ -24,6 +24,4 @@ function exibirResultado(tipoTriangulo) {
         resultadoDiv.innerHTML += "<img src='./img/escaleno.PNG' alt='Triângulo Escaleno'>";
     }
 
-    // function limpar() {
-    //     var limpar = parseFloat(document.getElementById('').value);
 }
