@@ -23,4 +23,7 @@ function exibirResultado(tipoTriangulo) {
     } else {
         resultadoDiv.innerHTML += "<img src='./img/escaleno.PNG' alt='Triângulo Escaleno'>";
     }
+
+    // function limpar() {
+    //     var limpar = parseFloat(document.getElementById('').value);
 }
