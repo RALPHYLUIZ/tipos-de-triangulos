@@ -1,0 +1,21 @@
+body {
+    background-color: rgb(228, 222, 214);
+}
+
+h1 {
+    text-align: center;
+    font-size: 42px;
+}
+
+
+.container {
+    margin-top: 120px;
+    width: 600px;
+}
+
+.container img {
+    flex-direction: column;
+    position: absolute;
+    width: 200px;
+    
+}
